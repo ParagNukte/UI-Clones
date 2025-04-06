@@ -1,0 +1,106 @@
+@import url("http://fonts.cdnfonts.com/css/billabong");
+@import url("https://fonts.googleapis.com/css?family=Proxima+Nova");
+
+ 
+.language {
+  border: none;
+  padding: 10px;
+ flex: auto;
+ color:grey
+  
+}
+.borderBox{
+    border: 1px solid grey;
+    width: 464px;
+    display: flex;
+    justify-content: center;
+    margin : auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+ 
+  
+ 
+  
+}
+
+.headerTitle {
+  font-size: 64px;
+  font-family: "Billabong", sans-serif;
+  padding: 20px;
+}
+
+.input {
+  min-width: 370px;
+  min-height: 10px;
+  padding: 15px;
+  
+}
+
+.submitButton__Facebook {
+  min-width: 404px;
+    height: 43px;
+  margin: auto;
+  background-color: #2aa5ce;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  border: none;
+}
+/* .submitButton__Facebook {
+  min-width: 404px;
+  min-height: 25px;
+  margin: auto;
+  background-color: #2aa5ce;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  border: none;
+} */
+.submitButton__Login {
+  min-width: 404px;
+  min-height: 43px;
+  margin: auto;
+  background-color: #2aa5ce;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  border: none;
+}
+
+
+
+.forgot {
+  font-family: "proxima-nova", sans-serif;
+  min-width: 404px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  color: rgb(142, 158, 252);
+  text-decoration: none;
+  
+}
+/* .facebookIcon{
+    size : "30px";
+     
+     padding: 7px;
+} */
+.dontHave__acc{
+    padding: 20px;
+    color: grey;
+}
